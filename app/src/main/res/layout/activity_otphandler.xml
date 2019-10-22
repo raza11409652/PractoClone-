@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OTPHandler">
+    <androidx.appcompat.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:textAlignment="center"
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@android:color/white"
+        android:background="?attr/colorPrimary"
+        />
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="@dimen/parent_layout_padding"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/otp"
+            android:layout_gravity="center"
+            android:layout_width="120sp"
+            android:layout_height="120sp" />
+        <TextView
+            android:layout_marginTop="@dimen/margin_top"
+            android:layout_marginBottom="@dimen/size_18"
+            android:text="@string/otp_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+            <EditText
+                android:inputType="numberPassword"
+                android:id="@+id/otpEdt"
+                android:textAlignment="center"
+                android:hint="OTP"
+                android:background="@drawable/bg_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/otpVerify"
+            android:text="@string/verify"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_red"
+            android:layout_marginTop="@dimen/size_24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

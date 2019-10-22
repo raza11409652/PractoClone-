@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:color="@color/ripple_color_red"
+    >
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/red"></solid>
+            <stroke android:color="@color/red"
+                android:width="@dimen/size_1"></stroke>
+            <corners android:radius="@dimen/size_4"></corners>
+            <padding android:bottom="@dimen/btn_padding"
+                android:left="@dimen/btn_padding"
+                android:right="@dimen/btn_padding"
+                android:top="@dimen/btn_padding"></padding>
+
+        </shape>
+    </item>
+</ripple>

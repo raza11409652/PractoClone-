@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardElevation="@dimen/size_4"
+    android:layout_margin="@dimen/size_2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:background="@drawable/bg_border"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/image"
+            android:layout_margin="@dimen/size_24"
+            android:layout_width="64sp"
+            android:src="@drawable/pills"
+            android:layout_height="64sp" />
+        <TextView
+            android:id="@+id/title"
+            android:textColor="@color/black"
+            android:text="@string/no_found"
+            android:layout_marginTop="@dimen/size_4"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

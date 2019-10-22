@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Hospital</string>
+    <string name="entermobile">Enter Mobile</string>
+    <string name="enterpassword">Enter Password</string>
+    <string name="login">Login</string>
+    <string name="get_started">Get Started</string>
+    <string name="login_text">Enter your 10 digit registered mobile number and password to continue</string>
+    <string name="register">New User ? Register Now</string>
+    <string name="loginAcnt">Login To Your Account</string>
+    <string name="registerAccount">Register</string>
+    <string name="name">Your Name</string>
+    <string name="email">Your Email</string>
+    <string name="mobile">Your mobile</string>
+    <string name="warning">Warning!</string>
+    <string name="text">error text</string>
+    <string name="error_alert_txt">Warning!</string>
+    <string name="ok">OK</string>
+    <string name="verify">Verify</string>
+    <string name="otp_text">Please enter 5 digit OTP sent to your mobile number</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_profile">more</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="location">Jalandhar</string>
+    <string name="meetDr">Meet a doctor</string>
+    <string name="bookApointment">Book Appointments</string>
+    <string name="location_search">Enter Location</string>
+    <string name="location_city">Enter city name</string>
+    <string name="location_fetch">Please wait while we fetch city ...</string>
+    <string name="Pharmacy">Pharmacy</string>
+    <string name="expolreMEd">Know your medicine</string>
+    <string name="hint_med">Medicine name</string>
+    <string name="please_wait">Please wait while we fetch details</string>
+    <string name="path_lab">Explore medical lab</string>
+    <string name="path">Medical Labs</string>
+    <string name="no_found">Sorry no result found</string>
+    <string name="hospital">Hospital</string>
+    <string name="exploreh">Find nearby hospital</string>
+    <string name="find">Find doctors in top specialities</string>
+    <string name="viewAll">View All</string>
+    <string name="type">Type</string>
+    <string name="remainder">Create Remainder</string>
+    <string name="remainder_m">Remainder Management</string>
+    <string name="select_adet">Select Date</string>
+    <string name="succ">Alert</string>
+    <string name="menu_booking">Bookings</string>
+</resources>

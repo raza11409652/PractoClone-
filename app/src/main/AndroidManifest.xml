@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hackdroid.hospital">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/noActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".CreateAlarm"></activity>
+        <activity
+            android:name=".CreateBookings"
+            android:parentActivityName=".FetchDr" />
+        <activity
+            android:name=".FetchDr"
+            android:parentActivityName=".Dash" />
+        <activity
+            android:name=".AllDrTypes"
+            android:parentActivityName=".Dash" />
+        <activity
+            android:name=".Hospitalfinder"
+            android:parentActivityName=".Dash" />
+        <activity
+            android:name=".PathLab"
+            android:parentActivityName=".Dash" />
+        <activity
+            android:name=".Pharmacy"
+            android:parentActivityName=".Dash" />
+        <activity android:name=".LocationSelector" />
+        <activity android:name=".Dash" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/noActionBar.NoActionBar" />
+        <activity
+            android:name=".OTPHandler"
+            android:parentActivityName=".Register" />
+        <activity
+            android:name=".Register"
+            android:parentActivityName=".Login" />
+        <activity android:name=".Login" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver
+            android:name=".App.AlarmReceiver"
+            android:enabled="true"
+            android:exported="true" />
+    </application>
+
+</manifest>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.SearchFrag">
+    <RelativeLayout
+        android:background="@color/colorPrimaryDark"
+        android:padding="@dimen/parent_layout_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/white"
+            android:text="Your Appointment "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/notFound"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/image"
+            android:layout_centerInParent="true"
+            android:src="@drawable/band"
+            android:layout_width="120sp"
+            android:layout_height="120sp" />
+        <TextView
+            android:textAlignment="center"
+            android:text="@string/no_found"
+            android:layout_below="@id/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginBottom="@dimen/size_62"
+        android:visibility="gone"
+        android:clipToPadding="true"
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>

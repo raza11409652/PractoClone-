@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.ProfileFrag">
+    <RelativeLayout
+        android:background="@color/colorPrimaryDark"
+        android:padding="@dimen/size_24"
+        android:layout_width="match_parent"
+        android:layout_height="200sp">
+        <ImageView
+            android:id="@+id/userImage"
+            android:src="@drawable/user"
+            android:layout_centerHorizontal="true"
+            android:layout_width="120sp"
+            android:layout_height="120sp" />
+
+        <TextView
+            android:id="@+id/mobile"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/margin_top"
+            android:textAlignment="center"
+            android:text="@string/mobile"
+            android:layout_below="@id/userImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:padding="@dimen/parent_layout_padding"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/create"
+                android:drawableTint="@color/colorPrimaryDark"
+                android:textColor="@color/colorPrimaryDark"
+                android:drawablePadding="@dimen/size_2"
+                android:drawableStart="@drawable/ic_add_alarm_black_24dp"
+                android:text="@string/remainder"
+                android:textAlignment="viewStart"
+                android:theme="@style/FlatButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <!--<Button-->
+                <!--android:layout_marginTop="@dimen/size_4"-->
+                <!--android:drawableTint="@color/colorPrimaryDark"-->
+                <!--android:textColor="@color/colorPrimaryDark"-->
+                <!--android:drawablePadding="@dimen/size_2"-->
+                <!--android:drawableStart="@drawable/ic_alarm_black_24dp"-->
+                <!--android:text="@string/remainder_m"-->
+                <!--android:textAlignment="viewStart"-->
+                <!--android:theme="@style/FlatButton"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content" />-->
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/logout"
+            android:layout_marginBottom="@dimen/size_54"
+            android:textColor="@color/white"
+            android:text="logout"
+            android:background="@drawable/btn_red"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+</LinearLayout>

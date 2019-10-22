@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/parent_layout_padding"
+    android:background="@color/white"
+    tools:context=".Login">
+    <ImageView
+        android:layout_marginBottom="@dimen/size_4"
+        android:src="@drawable/icon"
+        android:layout_gravity="center"
+        android:layout_width="120sp"
+        android:layout_height="120sp" />
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/size_24"
+        android:text="@string/loginAcnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="@string/login_text"
+        android:layout_marginBottom="@dimen/margin_top"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@drawable/bg_input"
+        android:inputType="number"
+        android:hint="@string/entermobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/password"
+        android:background="@drawable/bg_input"
+        android:inputType="textPassword"
+        android:layout_marginTop="@dimen/margin_top"
+        android:hint="@string/enterpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:textColor="@color/white"
+        android:text="@string/login"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/size_24"
+        android:background="@drawable/btn_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/registerBtn"
+        android:text="@string/register"
+        android:theme="@style/FlatButton"
+        android:layout_marginTop="@dimen/size_24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

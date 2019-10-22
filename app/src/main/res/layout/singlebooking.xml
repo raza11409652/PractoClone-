@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/bg_border_red"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/size_4">
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/date"
+            android:text="Date Time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/doctor"
+        android:text="Doctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/address"
+        android:text="ADDRESS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

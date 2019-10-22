@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".CreateBookings">
+    <androidx.appcompat.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:textAlignment="center"
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@android:color/white"
+        android:background="?attr/colorPrimary"
+        />
+    <LinearLayout
+        android:padding="@dimen/parent_layout_padding"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginBottom="@dimen/size_4"
+            android:text="You are booking an Appointment for"
+            android:textColor="@color/white"
+            android:background="@drawable/chip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/icon"
+                android:id="@+id/image"
+                android:layout_width="120sp"
+                android:layout_height="120sp" />
+            <TextView
+                android:layout_margin="@dimen/size_2"
+                android:id="@+id/name"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/size_4"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Booking Date"
+                android:layout_weight="1"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:background="@drawable/bg_white"
+                android:textColor="@color/black"
+                android:id="@+id/date"
+                android:textAlignment="center"
+                android:text="21/09/2019"
+                android:layout_weight="1"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/size_4"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Select Time"
+                android:layout_weight="1"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content" />
+          <Spinner
+              android:background="@drawable/bg_white"
+              android:textAlignment="center"
+              android:layout_gravity="end"
+              android:id="@+id/timeSelect"
+              android:layout_weight="1"
+              android:layout_width="0sp"
+              android:layout_height="wrap_content"></Spinner>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/book"
+            android:text="book"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_red"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/size_54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

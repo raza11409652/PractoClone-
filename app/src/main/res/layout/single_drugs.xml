@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView app:cardUseCompatPadding="true"
+    android:clipToPadding="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="@dimen/size_1"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/bg_white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/nameMed"
+                android:layout_alignParentStart="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_18"
+                android:text="name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/venMed"
+                android:textColor="@color/white"
+                android:background="@drawable/chip"
+                android:layout_alignParentEnd="true"
+                android:text="V"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/remarks"
+            android:layout_marginTop="@dimen/size_4"
+            android:textColor="@color/red"
+            android:text="Remarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/grp"
+            android:layout_marginTop="@dimen/size_4"
+            android:text="GROUP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

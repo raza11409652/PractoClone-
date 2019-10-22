@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="parent_layout_padding">18sp</dimen>
+    <dimen name="margin_top">10sp</dimen>
+    <dimen name="size_4">4sp</dimen>
+    <dimen name="padding_18">18sp</dimen>
+    <dimen name="padding_12">12sp</dimen>
+    <dimen name="size_1">1sp</dimen>
+    <dimen name="btn_padding">8sp</dimen>
+    <dimen name="size_24">24sp</dimen>
+    <dimen name="size_18">18sp</dimen>
+    <dimen name="size_32">32sp</dimen>
+    <dimen name="parent_padding">14sp</dimen>
+    <dimen name="size_20">20sp</dimen>
+    <dimen name="size_10">10sp</dimen>
+    <dimen name="size_8">8sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="size_16">16sp</dimen>
+    <dimen name="size_2">2sp</dimen>
+    <dimen name="size_12">12sp</dimen>
+    <dimen name="padding_8">8sp</dimen>
+    <dimen name="padding_4">4sp</dimen>
+    <dimen name="size_0">0sp</dimen>
+    <dimen name="size_54">54sp</dimen>
+    <dimen name="size_62">62sp</dimen>
+</resources>
